@@ -1,0 +1,27 @@
+# Build outputs & binaries
+dist/
+build/
+prebuilt/
+tools/
+
+# Signing keys & certificates (never commit private keys or signatures)
+keystore/
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pk8
+*.pem
+*.idsig
+*.apk
+*.so
+
+# Python / OS / IDE
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
